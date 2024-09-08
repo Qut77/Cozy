@@ -54,7 +54,7 @@ body{
 .logo{
     font-family: 'Nauryz';
     color: #000;
-    font-size: 40px;
+    font-size: 48px;
     text-decoration: none;
 
 }
@@ -90,4 +90,180 @@ body{
     left: 0;
     transition: 0.2s;
     border-radius: 90px;
+}
+.homepage_wrapper{
+    width: 100%;
+    background-color: #fff;
+}
+.homepage{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.homepage .home_text{
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+    padding-bottom: 200px;
+}
+.homepage .home_text h1{
+    font-family: 'Inter-Bold';
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 126%;
+    color: #000;
+}
+.homepage .home_text .slogan{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 0%;
+    letter-spacing: 0.1em;
+    color: #616161;
+    margin: 52px 0;
+}
+.homepage .home_text .home_order{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 562px;
+    height: 128px;
+}
+.homepage .home_text .home_order p{
+    border-right: 1px solid #ddd;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    padding-right: 16px;
+    font-family: 'Inter-Regular';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    color: #616161;
+}
+.homepage .home_text .home_order button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cd6000;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 163px;
+    height: 52px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Inter-Medium';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 156%;
+    color: #fff;
+}
+.secvice_wrapper{
+    width: 100%;
+}
+.service_wrapper .service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+.service_wrapper .service h2{
+    font-family: 'Inter-Bold';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 175%;
+    color: #003163;
+    margin-bottom: 70px;
+}
+.service_wrapper .service .service_cards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+}
+.service_wrapper .service .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px 22px;
+    width: 100%;    
+    max-width: 384px;
+    box-shadow: 0 0 1px 0 rgba(23, 26, 31, 0.07), 0 0 2px 0 rgba(23, 26, 31, 0.12);
+    background: #fff;
+}
+.service_wrapper .service .card .card_text{
+    width: 100%;
+}
+.service_wrapper .service .card h3{
+    font-family: 'Inter-Bold';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    color: #004285;
+    margin: 80px 0 20px 0;
+}
+.service_wrapper .service .card p{
+    font-family: 'Inter-Regular';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 157%;
+    color: #616161;
+}
+.about_wrapper{
+    width: 100%;
+}
+.about_wrapper .about{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+}
+.about_wrapper .about h2{
+    font-family: 'Inter-Bold';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 175%;
+    color: #003163;
+    margin-bottom: 60px;
+}
+.about_wrapper .about span{
+    font-family: 'Nauryz';
+}
+.about_wrapper .about .about_cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.about_wrapper .about .about_cont .about_text{
+    padding: 34px 32px 0;
+    width: 100%;
+    max-width: 513px;
+    box-shadow: 0 0 1px 0 rgba(23, 26, 31, 0.07), 0 0 2px 0 rgba(23, 26, 31, 0.12);
+}
+.about_wrapper .about .about_cont .about_cell{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.about_wrapper .about .about_cont .about_cell img{
+    margin-right: 16px;
+}
+.about_wrapper .about .about_cont .about_cell .cell_text h3{
+    font-family: 'Inter-Bold';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #004285;
+}
+.about_wrapper .about .about_cont .about_cell .cell_text p{
+    font-family: 'Inter-Regular';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 157%;
+    color: #616161;
 }
